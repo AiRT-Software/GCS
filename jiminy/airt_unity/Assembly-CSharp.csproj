@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{2CB1DA65-0BC8-EACC-CD16-3B94A7F2355F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_POST_PROCESSING_STACK_V2</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Calibration\Scripts\AnchorsCalibration.cs" />
+     <Compile Include="Assets\Calibration\Scripts\AnchorsClick.cs" />
+     <Compile Include="Assets\Calibration\Scripts\CalibrationSettings.cs" />
+     <Compile Include="Assets\Calibration\Scripts\UICalibrationManager.cs" />
+     <Compile Include="Assets\Connection\Scripts\Client.cs" />
+     <Compile Include="Assets\Connection\Scripts\ClientUnity.cs" />
+     <Compile Include="Assets\Connection\Scripts\GlobalSettings.cs" />
+     <Compile Include="Assets\Connection\Scripts\HRTimer.cs" />
+     <Compile Include="Assets\Connection\Scripts\MessageCodes.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\AtreyuModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\DroneModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\FCSModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\FPVModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\GimbalMultiplexerModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\LibraryModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\MissionExecutorModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\OSModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\PointCloudModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\PozyxModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\RecCamModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\Modules\StandardModule.cs" />
+     <Compile Include="Assets\Connection\Scripts\ReliableExternalClient.cs" />
+     <Compile Include="Assets\Connection\Scripts\ServerMessages.cs" />
+     <Compile Include="Assets\Connection\Scripts\StdMessage.cs" />
+     <Compile Include="Assets\Debug\Scripts\FileBrowser\FileBrowser.cs" />
+     <Compile Include="Assets\Debug\Scripts\FileBrowser\FileBrowserInterface.cs" />
+     <Compile Include="Assets\Debug\Scripts\FileBrowser\FileBrowserUtilities.cs" />
+     <Compile Include="Assets\Debug\Scripts\FileBrowser\FiniteStack.cs" />
+     <Compile Include="Assets\Debug\Scripts\StateMachine.cs" />
+     <Compile Include="Assets\Debug\Scripts\TestSerializables.cs" />
+     <Compile Include="Assets\Debug\Scripts\Youtube.cs" />
+     <Compile Include="Assets\FileBrowser\Common\Scripts\FiniteStack.cs" />
+     <Compile Include="Assets\FileBrowser\Common\Scripts\Utilities.cs" />
+     <Compile Include="Assets\FileBrowser\SimpleFileBrowser\Scripts\DemoCaller.cs" />
+     <Compile Include="Assets\FileBrowser\SimpleFileBrowser\Scripts\FileBrowser.cs" />
+     <Compile Include="Assets\FileBrowser\SimpleFileBrowser\Scripts\UI\LandscapeUserInterface.cs" />
+     <Compile Include="Assets\FileBrowser\SimpleFileBrowser\Scripts\UI\PortraitUserInterface.cs" />
+     <Compile Include="Assets\FileBrowser\SimpleFileBrowser\Scripts\UI\UserInterface.cs" />
+     <Compile Include="Assets\General\Scripts\AutoHideButton.cs" />
+     <Compile Include="Assets\General\Scripts\BatteryManager.cs" />
+     <Compile Include="Assets\General\Scripts\Camera\CameraMovement.cs" />
+     <Compile Include="Assets\General\Scripts\Camera\OrbitCamera.cs" />
+     <Compile Include="Assets\General\Scripts\Camera\OrbitCamerav2.cs" />
+     <Compile Include="Assets\General\Scripts\Debug.cs" />
+     <Compile Include="Assets\General\Scripts\DronInfoPanel.cs" />
+     <Compile Include="Assets\General\Scripts\FCExecutor.cs" />
+     <Compile Include="Assets\General\Scripts\Files\ColladaImporter.cs" />
+     <Compile Include="Assets\General\Scripts\Files\FastObjImporter.cs" />
+     <Compile Include="Assets\General\Scripts\Files\FileManager.cs" />
+     <Compile Include="Assets\General\Scripts\GeneralSceneManager.cs" />
+     <Compile Include="Assets\General\Scripts\GeneralSettings.cs" />
+     <Compile Include="Assets\General\Scripts\GimbalControl.cs" />
+     <Compile Include="Assets\General\Scripts\IndividualIrisButton.cs" />
+     <Compile Include="Assets\General\Scripts\IndividualIsoParameters.cs" />
+     <Compile Include="Assets\General\Scripts\LoadSceneScript.cs" />
+     <Compile Include="Assets\General\Scripts\ManageFPV.cs" />
+     <Compile Include="Assets\General\Scripts\PointCloud\CompShader.cs" />
+     <Compile Include="Assets\General\Scripts\PointCloud\PCLMesh.cs" />
+     <Compile Include="Assets\General\Scripts\PointCloud\PCLMsg.cs" />
+     <Compile Include="Assets\General\Scripts\PointCloud\PCLMsgOffsets.cs" />
+     <Compile Include="Assets\General\Scripts\PointCloud\PointCloud.cs" />
+     <Compile Include="Assets\General\Scripts\QueueSync.cs" />
+     <Compile Include="Assets\General\Scripts\RecCamControl.cs" />
+     <Compile Include="Assets\General\Scripts\RenderExplainer.cs" />
+     <Compile Include="Assets\Mapping\Scripts\BackgroundClicks.cs" />
+     <Compile Include="Assets\Mapping\Scripts\PlaceModel.cs" />
+     <Compile Include="Assets\Mapping\Scripts\PlanSelectionButtons.cs" />
+     <Compile Include="Assets\Mapping\Scripts\PlanSelectionManager.cs" />
+     <Compile Include="Assets\Mapping\Scripts\SavedPointCloud.cs" />
+     <Compile Include="Assets\Mapping\Scripts\TakeOffButton.cs" />
+     <Compile Include="Assets\Mapping\Scripts\UI\UIMapManager.cs" />
+     <Compile Include="Assets\Mapping\Scripts\Variables\Map.cs" />
+     <Compile Include="Assets\Mapping\Scripts\Variables\MapManager.cs" />
+     <Compile Include="Assets\Mapping\Scripts\Variables\MapMetadata.cs" />
+     <Compile Include="Assets\Mapping\Scripts\Variables\PointCloudID.cs" />
+     <Compile Include="Assets\Planning\Scripts\ConflictMap.cs" />
+     <Compile Include="Assets\Planning\Scripts\Curvas\BezierCurve.cs" />
+     <Compile Include="Assets\Planning\Scripts\Curvas\CatmullRomSpline.cs" />
+     <Compile Include="Assets\Planning\Scripts\CurveEditor.cs" />
+     <Compile Include="Assets\Planning\Scripts\DefaultFlightParamsManager.cs" />
+     <Compile Include="Assets\Planning\Scripts\MapLoader.cs" />
+     <Compile Include="Assets\Planning\Scripts\MissionManager.cs" />
+     <Compile Include="Assets\Planning\Scripts\PlanningManager.cs" />
+     <Compile Include="Assets\Planning\Scripts\POIEditor.cs" />
+     <Compile Include="Assets\Planning\Scripts\PointClicker.cs" />
+     <Compile Include="Assets\Planning\Scripts\Renders\Grid.cs" />
+     <Compile Include="Assets\Planning\Scripts\Renders\PostRenderFront.cs" />
+     <Compile Include="Assets\Planning\Scripts\Renders\PostRenderTop.cs" />
+     <Compile Include="Assets\Planning\Scripts\SendJSONStateMachine.cs" />
+     <Compile Include="Assets\Planning\Scripts\UI\EditPointManager.cs" />
+     <Compile Include="Assets\Planning\Scripts\UI\EmptySceneUIManager.cs" />
+     <Compile Include="Assets\Planning\Scripts\UI\MainPlanningUI.cs" />
+     <Compile Include="Assets\Planning\Scripts\UI\UIManager.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\ApplicationVariables.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\ByteArray.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\ChangePointType.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\DefaultFlightParams.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\GimballParametres.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\Path.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\PathMetadata.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\PathPoint.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\POI.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\Point.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\RecCamParametres.cs" />
+     <Compile Include="Assets\Planning\Scripts\Variables\WaypointUpdateParametres.cs" />
+     <Compile Include="Assets\Planning\Scripts\VirtualTravel.cs" />
+     <Compile Include="Assets\Recording\Scripts\FlyButtonStateMachine.cs" />
+     <Compile Include="Assets\Recording\Scripts\LowBatteryWarning.cs" />
+     <Compile Include="Assets\Recording\Scripts\UIRecordingManager.cs" />
+     <Compile Include="Assets\TagsConfiguration\Scripts\UITagsConfigurationManager.cs" />
+     <None Include="Assets\General\Shaders\TriangleRender.shader" />
+     <None Include="Assets\Fuentes\OFL.txt" />
+     <None Include="Assets\Shaders\bufferDraw.shader" />
+     <None Include="Assets\Shaders\DOttedLine.shader" />
+     <None Include="Assets\General\Shaders\PointCloud.shader" />
+     <None Include="Assets\FileBrowser\SimpleFileBrowser\ReadMe.txt" />
+     <None Include="Assets\FileBrowser\SimpleFileBrowser\DemoFiles\TextFileWithNewLines.txt" />
+     <None Include="Assets\Shaders\CullBackShader.shader" />
+     <None Include="Assets\FileBrowser\SimpleFileBrowser\DemoFiles\DemoText.txt" />
+     <None Include="Assets\General\Shaders\CreateTriangles.compute" />
+     <None Include="Assets\Shaders\Outline.shader" />
+     <None Include="Assets\FileBrowser\SimpleFileBrowser\Scripts\ObjectsShader.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncIO">
+ <HintPath>D:/fjabad/investigacion/proyectos/AiRT/svn/trunk/jiminy/airt_unity/Assets/Connection/Plugins/AsyncIO.dll</HintPath>
+ </Reference>
+ <Reference Include="NetMQ">
+ <HintPath>D:/fjabad/investigacion/proyectos/AiRT/svn/trunk/jiminy/airt_unity/Assets/Connection/Plugins/NetMQ.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/fjabad/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/fjabad/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/fjabad/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Users/fjabad/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/fjabad/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/fjabad/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/fjabad/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

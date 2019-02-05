@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ed83f4d6b6d8fd2428a1e33f1a6b30c4
+timeCreated: 1522134598
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefab_cloud_go: {fileID: 1060696026781944, guid: 079ea14ab57e48040a7b13f135bd6cd9,
+      type: 2}
+  - cs_create_triangles: {fileID: 7200000, guid: c4d5e9da799b41e4e9510a9239756c12,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

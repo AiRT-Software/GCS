@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 85448797b7cb24047853176bae30e95c
+timeCreated: 1524737988
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fpvRender: {instanceID: 0}
+  - airtBackground: {instanceID: 0}
+  - alphaBackground: {fileID: 21300000, guid: 4b7299231f4412c4db8f14dc6dd63fd4, type: 3}
+  - opaqueBackground: {fileID: 21300000, guid: a17c6e8b2ca64864fb9cc15dd7e5f190, type: 3}
+  - openFPV: {instanceID: 0}
+  - closeFPV: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

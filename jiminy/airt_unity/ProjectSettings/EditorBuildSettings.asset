@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/General/Scenes/General.unity
+    guid: f438c8895c092fa47b3b980307bcadd8
+  - enabled: 1
+    path: Assets/TagsConfiguration/Scenes/TagsConfiguration.unity
+    guid: 9a026249d08ef0f40950cdb10d13d1b2
+  - enabled: 1
+    path: Assets/Calibration/Scene/Calibration.unity
+    guid: 8d2921a9653a1454988af460bb180b57
+  - enabled: 1
+    path: Assets/Planning/Scenes/PlanSelection.unity
+    guid: 19dcf44ed8f430a4db67767a6fd8aeaa
+  - enabled: 1
+    path: Assets/Recording/Scene/ModelAlignment.unity
+    guid: c392fc5dc01915945b88f1397f937e79
+  - enabled: 1
+    path: Assets/Planning/Scenes/Planning.unity
+    guid: 4b4ce528b194d854d95431a8079141b7
+  - enabled: 1
+    path: Assets/Mapping/Scene/Mapping.unity
+    guid: b46806e25b83ea24b88908ba0de21eaf
+  - enabled: 1
+    path: Assets/Recording/Scene/Recording.unity
+    guid: 9804edc536304c14f875d6396bdbf0a6
