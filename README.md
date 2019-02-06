@@ -16,3 +16,5 @@ tablet. Its main features are:
 User Guide available in Zenodo https://zenodo.org/record/1258206
 
 This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 732433.
+
+<a href="AiRT_software.png"><img src="AiRT_software.png" /></a>
